@@ -7,7 +7,7 @@ Name | Description | Tech/Tools
 ------------ | ------------- | -------------
 Restaurant Management System | A simple website for restaurant to help admins and users keeping track of everything | HTML5-CSS-JS-PHP-MYSQL
 Food Ordering Application | A simple android application to help users request meals online | Java-PHP-SQLite
-Cloudy-Bluetoothed-Car | A car which can be controllered through a mobile application which also capture pictures | Java-Bash-TCP/IP-Ardiono-Raspberry PI
+Cloudy-Bluetoothed-Car | A car which can be controllered through a mobile application which also capture pictures | Java-Bash-TCP/IP-Ardiuno-Raspberry PI
 Student Management System | A system for schools/Universities for a better student record system | MSSQL-C#(.Net)
 
 # Experience
