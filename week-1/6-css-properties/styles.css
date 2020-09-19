@@ -6,7 +6,6 @@ a {
 }
 
 .message {
-  font-size: 0.9rem;
   line-height: 2;
 }
 
@@ -16,4 +15,8 @@ a {
 
 .message__time--old {
   opacity: 0.5;
+}
+
+.message__time {
+  font-size: 0.9rem;
 }
