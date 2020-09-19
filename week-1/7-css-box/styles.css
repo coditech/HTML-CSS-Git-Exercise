@@ -4,3 +4,12 @@
   border-radius: 4px;
   background: #fff;
 }
+div.pages {
+  padding: 20px;
+}
+div.pages a {
+  padding: 10px;
+}
+ul.countries li {
+  padding: 10px;
+}
