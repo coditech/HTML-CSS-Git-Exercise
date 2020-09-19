@@ -3,3 +3,11 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  flex-direction: row;
+}
+
+.country--brazil {
+  order: 5;
+}
