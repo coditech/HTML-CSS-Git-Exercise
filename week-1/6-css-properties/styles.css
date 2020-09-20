@@ -1,1 +1,18 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.message {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.message--unread {
+  border-left: blue 1px solid;
+}
+
+.message:nth-child(1) {
+  opacity: 0.5;
+}

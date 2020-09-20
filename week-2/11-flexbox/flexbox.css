@@ -1,1 +1,20 @@
 /* Add your own CSS code below */
+/* .exercise {
+    display: flex;
+    flex-direction: row;
+} */
+
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.countries--second {
+  display: flex;
+  flex-direction: column;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+}
