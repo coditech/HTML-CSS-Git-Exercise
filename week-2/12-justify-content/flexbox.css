@@ -7,3 +7,38 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  flex-direction: row;
+  justify-content: initiacenterl;
+  padding: 15px 15px 15px 50px;
+}
+
+.countries--second li {
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.countries--tall {
+  flex-direction: row;
+  justify-content: left;
+  flex-flow: column;
+}
+
+.countries--third li:last-child {
+  margin-bottom: 0px;
+}
+
+.countries--third li:first-child {
+  margin-top: 140px;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+}
+
+.countries--fourth li {
+  margin-top: auto;
+  margin-bottom: auto;
+}
