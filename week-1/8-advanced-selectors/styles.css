@@ -1,1 +1,12 @@
 /* Try different box model properties below */
+.side-header p {
+    color:white;
+margin-bottom: 0px;
+}
+.side-footer p{
+    font-size: 12px;
+    text-align: center;
+}
+.message:last-child {
+    box-shadow: 4px 4px 0 #dba944;
+}
