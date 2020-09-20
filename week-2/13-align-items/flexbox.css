@@ -22,3 +22,10 @@
   flex-direction: column-reverse;
   align-items: center;
 }
+.countries--first {
+  display: flex;
+  flex-direction: row;
+}
+.countries .country--brazil {
+  order: 1;
+}
