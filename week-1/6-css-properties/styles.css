@@ -1,6 +1,18 @@
 /* Add your CSS code below */
-.link link--map {
+a {
   font-weight: bold;
-  font-size: 0.9rem;
   color: red;
+  text-decoration: none;
+}
+time.message__time {
+  font-size: 0.9rem;
+}
+div.message.message--unread {
+  border-left: 2px solid blue;
+}
+.messages .message:first-child {
+  opacity: 0.5;
+}
+.message {
+  line-height: 45px;
 }
