@@ -15,18 +15,18 @@
 .countries--third {
   display: flex;
 }
-.coutries--third .country--brazil {
+.countries--third .country--brazil {
   order: 5;
 }
-.coutries--third .country--croatia {
+.countries--third .country--croatia {
   order: 4;
 }
-.coutries--third .country--ethiopia {
+.countries--third .country--ethiopia {
   order: 3;
 }
-.coutries--third .country--laos {
+.countries--third .country--laos {
   order: 2;
 }
-.coutries--third .country--uganda {
+.countries--third .country--uganda {
   order: 1;
 }
