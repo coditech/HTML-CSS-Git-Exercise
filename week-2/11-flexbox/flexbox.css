@@ -1,1 +1,13 @@
 /* Add your own CSS code below */
+ul {
+    display: flex;
+    
+}
+
+    
+.countries--second{
+    flex-direction: column-reverse;
+}
+.countries--third{
+    flex-direction: column-reverse;
+}
