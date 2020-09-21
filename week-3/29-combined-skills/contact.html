@@ -55,15 +55,41 @@
         <p>Send us an email if you would like to contact us.</p>
         <form method="GET" class="contact-form">
           <div class="contact-form__field">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <label for="name"><b>Name</b></label>
+            <input type="text" name="name" id="name" required />
+            <p></p>
+            <label for="email"><b>Email</b></label>
+            <input type="text" name="email" id="email" required />
           </div>
           <div class="contact-form__field">
+            <label for="message">
+              <b> Message </b>
+            </label>
             <textarea
               name="message"
               placeholder="Your message should not be longer than 200 words."
+              id="message"
+              required
             ></textarea>
           </div>
+          <p></p>
+          <fieldset>
+            <legend><b>What branch are you intrested in?</b></legend>
+            <ul class="radio_branch">
+              <li>
+                <input type="radio" id="london" value="london" />
+                <label for="london">London</label>
+              </li>
+              <li>
+                <input type="radio" id="glasgow" value="glasgow" />
+                <label for="glasgow">Glasgow</label>
+              </li>
+              <li>
+                <input type="radio" id="Manchester" value="Manchester" />
+                <label for="Manchester">Manchester</label>
+              </li>
+            </ul>
+          </fieldset>
           <button type="submit">Send</button>
         </form>
       </main>
@@ -74,7 +100,7 @@
             href="https://github.com/coditech/Submissions/tree/master/Exercises/html-css-git-exercises"
             >Built</a
           >
-          with ♥ for <a href="https://codi.tech/">Codi</a>.
+          with <span id="heart">♥</span> for <a href="https://codi.tech/">Codi</a>.
         </p>
         <p>
           <svg
