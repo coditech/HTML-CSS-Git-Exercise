@@ -4,3 +4,7 @@
   font-weight: 700;
   text-decoration: none;
 }
+
+.message__content a {
+  color: fuchsia;
+}
