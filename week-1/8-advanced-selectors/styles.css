@@ -13,3 +13,7 @@
 .messages > .message--unread:last-child {
   box-shadow: 4px 4px 0 #dba944;
 }
+
+.messages > .message {
+  width: 80%;
+}
