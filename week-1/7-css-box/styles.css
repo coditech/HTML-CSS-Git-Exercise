@@ -3,4 +3,24 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  padding: 1 px;
+}
+.countries {
+  padding: 10px;
+  margin: 2px;
+  line-height: 35px;
+}
+.country {
+  margin: 10px;
+  margin-left: 10px;
+}
+.pages__showing {
+  padding: 10px;
+  margin: -10px;
+
+  height: 50px;
+  width: 150px;
 }
