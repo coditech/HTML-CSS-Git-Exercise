@@ -6,19 +6,16 @@
 }
 
 :root {
-  --text-align_: center;
-  --margin_: 30px 0;
-  --padding_: 40px 0;
+  --margin_: 1px 0;
+  --padding_: 10px 0 10px 13px;
   --white_space_: nowrap;
 }
 
 .site-header__title {
-  text-align: var(--text-align_);
   white-space: var(--white_space_);
 }
 
 .countries {
-  text-align: var(--text-align_);
   white-space: var(--white_space_);
 }
 
