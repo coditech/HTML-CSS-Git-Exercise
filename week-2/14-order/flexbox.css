@@ -3,3 +3,15 @@
 }
 
 /* Add your own CSS code below */
+.countries--first .country:nth-of-type(1) {
+  order: 5;
+}
+.countries--second .country:nth-of-type(1) {
+  order: 4;
+}
+.countries--second .country:nth-of-type(5) {
+  order: 5;
+}
+.countries--third {
+  flex-direction: row-reverse;
+}
