@@ -50,11 +50,9 @@
 .main-article {
   max-width: 50em;
   margin: 10px auto;
-}
-.article-title {
-  margin-left: 30%;
+  text-align: justify;
 }
 
 .main-article p {
-  line-height: 30px;
+  line-height: 2;
 }
