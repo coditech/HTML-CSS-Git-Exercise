@@ -55,14 +55,43 @@
         <p>Send us an email if you would like to contact us.</p>
         <form method="GET" class="contact-form">
           <div class="contact-form__field">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <label for="name"
+              >Name
+              <input type="text" name="name" id="name" required />
+            </label>
           </div>
+          <p></p>
+
+          <div class="email-form__field">
+            <label for="mail"
+              >Email
+              <input type="email" id="mail" name="mail" required />
+            </label>
+          </div>
+          <p></p>
+          <fieldset>
+            <legend>What branch are you interested in?</legend>
+            <label for="london"> <input type="radio" id="london" name="london" />London</label
+            ><br />
+            <p></p>
+            <label for="glasgow"> <input type="radio" id="glasgow" name="glasgow" />Glasgow</label
+            ><br />
+            <p></p>
+            <label for="Manchester">
+              <input type="radio" id="Manchester" name="Manchester" />Manchester</label
+            ><br />
+          </fieldset>
+          <p></p>
           <div class="contact-form__field">
-            <textarea
-              name="message"
-              placeholder="Your message should not be longer than 200 words."
-            ></textarea>
+            <label for="message"
+              >Message
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message should not be longer than 200 words."
+                required
+              ></textarea>
+            </label>
           </div>
           <button type="submit">Send</button>
         </form>
