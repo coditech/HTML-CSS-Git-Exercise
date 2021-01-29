@@ -4,3 +4,12 @@
   border-radius: 4px;
   background: #fff;
 }
+
+.country {
+  /*background-color: lightgrey;*/
+  width: inherit;
+  height: 10px;
+  border: 1px solid red;
+  padding: 35px;
+  margin: 15px;
+}

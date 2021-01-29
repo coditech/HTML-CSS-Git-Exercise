@@ -6,6 +6,7 @@
     <title>26 - Checkout Groups - HTML, CSS and Git Exercises</title>
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
+    <link rel="stylesheet" href="cssfile.css" />
   </head>
 
   <body>
@@ -23,7 +24,7 @@
             <tr>
               <td>
                 <div class="shopping-basket__product">
-                  <img src="/images/20-shirts.jpg" alt="Codi t-shirts in black" />
+                  <img src="/images/22/shirts.jpg" alt="Codi t-shirts in black" />
                   <p>Codi t-shirt, black</p>
                 </div>
               </td>
@@ -38,6 +39,44 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Adress</legend>
+              <label>
+                <p>Address Line 1</p>
+                <input type="text" name="Billing-Address Line 1" />
+              </label>
+              <label>
+                <p>Address Line 2</p>
+                <input type="text" name="Billing-Address Line 2" />
+              </label>
+              <label>
+                <p>Postcode</p>
+                <input type="text" name="Billing-Postcode" />
+              </label>
+              <label>
+                <p>City</p>
+                <input type="text" name="Billing-City" />
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <label>
+                <p>Address Line 1</p>
+                <input type="text" name="Delivery-Address Line 1" />
+              </label>
+              <label>
+                <p>Address Line 2</p>
+                <input type="text" name="Delivery-Address Line 2" />
+              </label>
+              <label>
+                <p>Postcode</p>
+                <input type="text" name="Delivery-Postcode" />
+              </label>
+              <label>
+                <p>City</p>
+                <input type="text" name="Delivery-City" />
+              </label>
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
