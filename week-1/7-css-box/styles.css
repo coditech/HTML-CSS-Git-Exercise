@@ -1,6 +1,34 @@
 /* Try different box model properties below */
 .pages__page {
-  border: 1px solid #4491db;
-  border-radius: 4px;
-  background: #fff;
+  border: 2px solid #4491db;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+:root {
+  --margin_: 1px 0;
+  --padding_: 10px 0 10px 13px;
+  --white_space_: nowrap;
+}
+
+.site-header__title {
+  white-space: var(--white_space_);
+}
+
+.countries {
+  white-space: var(--white_space_);
+}
+
+.countries li {
+  margin: var(--margin_);
+  padding: var(--padding_);
+}
+
+.pages > .pages__showing {
+  position: relative;
+  bottom: 17px;
+}
+
+.countries {
+  margin-bottom: 5px;
 }
