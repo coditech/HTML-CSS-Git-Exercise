@@ -6,7 +6,7 @@ A big thanks to Code Your Future.
 
 ## Set up the project
 
-Before you can start the exercises, you must install all of the code necessary to run the exercises. Open the Terminal and run the following command.
+Before you can start the exercises, you must install all of the code necessary to run the exercises. Open the Terminal and run the following command
 
 ```
 npm install
