@@ -3,4 +3,10 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+  width:100px;
+  height:30px ;
+  margin: 30px 20px 20px 50px;
+  padding: 5px 5px 5px 5px;
+  border: solid blue;
+
 }
