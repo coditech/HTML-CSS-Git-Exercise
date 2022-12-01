@@ -1,6 +1,6 @@
 # HTML, CSS and Git exercises
 
-A big thanks to Code Your Future.
+npm A big thanks to Code Your Future.
 
 ---
 
