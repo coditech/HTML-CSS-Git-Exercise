@@ -1,1 +1,11 @@
 /* Add your CSS code below */
+.first-message {
+    background-color: red;
+}
+
+.seconde-message{
+    background-color: cadetblue;
+}
+.thrid-message {
+    background-color: yellow;
+}
