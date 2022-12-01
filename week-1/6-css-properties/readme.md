@@ -8,4 +8,4 @@ There are many CSS properties you can use to change how your website looks. Add 
 4. Make yesterday's message partially transparent to show it is old.
 5. Increase the space between each line in a message.
 
-_Hint: You can use Google to learn new CSS properties. Try searching for color, font-weight, text-decoration, font-size, border, opacity, and line-height._
+_Hint: You can use Google to learn new CSS properties. Try searching for color, font-weight, text-decoration, font-size, border, opacity, and line-height.
