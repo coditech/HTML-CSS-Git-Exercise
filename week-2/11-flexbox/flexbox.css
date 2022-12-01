@@ -1,1 +1,14 @@
 /* Add your own CSS code below */
+.countries--first {
+    display: flex;
+    order: 5;
+    flex-direction:row-reverse;
+    margin-right: 250px;
+}
+.countries--second {
+    margin-right: 280px;
+}
+.countries--third {
+    margin-right: 280px;
+}
+
