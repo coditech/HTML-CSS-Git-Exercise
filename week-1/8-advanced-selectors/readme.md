@@ -7,7 +7,7 @@ Follow the steps below to complete this exercise. _Do not modify the index.html 
 1. Use the [Child Selector](https://learn.shayhowe.com/advanced-html-css/complex-selectors/#child-selectors) to change the text that reads "All of your messages with Won are shown below." Make this text `white` without changing the colour of any other text.
 2. Reduce the space between the text in step 1 and the messages. Use the `margin-bottom` property to remove the bottom margin on the text.
 3. Use the Child Selector to change the text at the bottom that reads "Last message received Yesterday, 7:38pm.". Change the `font-size` to `12px` and use the `text-align` property to center the text.
-4. Use the [:last-child Selector](https://learn.shayhowe.com/advanced-html-css/complex-selectors/#pseudo-classes) to change the last message in the list. Add a `box-shadow` of `4px 4px 0 #dba944` so that it stands out.
+4. Use the [:last-child Selector](https://learn.shayhowe.com/advanced-html-css/complex-selectors/#pseudo-classes) to change the last message in the list. Add a `box-shadow`box-shadow`of`4px 4px 0 #dba944` so that it stands out.
 
 When you complete this exercise it should look like the image below.
 
