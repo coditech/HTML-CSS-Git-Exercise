@@ -13,13 +13,14 @@
 .countries--second{
   align-items:flex-end;
   justify-content: end;
+  flex-direction: row-reverse;
 }
 .countries--third {
   flex-direction: column;
   align-items: end;
 }
 .countries--fourth {
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: end;
   align-items: center;
 
