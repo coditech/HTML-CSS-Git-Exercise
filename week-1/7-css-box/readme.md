@@ -1,4 +1,4 @@
-# CSS Box Model
+    # CSS Box Model
 
 In this exercise, you will modify the "box model" with the CSS properties `width`, `height`, `margin`, `padding` and `border`. Search on Google to learn how these properties work, then complete the steps below.
 
