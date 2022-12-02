@@ -2,3 +2,20 @@
   display: flex;
 }
 /* Add your own CSS code below */
+.countries--first , .countries--second , .countries--third,.countries--fourth {
+  display: flex;
+}
+.countries--first{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.countries--second{
+
+}
+.countries--third {
+
+}
+.countries--fourth {
+  
+}
