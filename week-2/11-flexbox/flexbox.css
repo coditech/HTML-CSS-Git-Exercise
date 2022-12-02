@@ -1,1 +1,8 @@
 /* Add your own CSS code below */
+.panel {
+  display: flex;
+}
+.countries--first {
+  display: flex;
+  flex-direction: column-reverse;
+}
