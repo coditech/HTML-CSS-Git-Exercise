@@ -3,3 +3,37 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  width: 62%;
+}
+.countries--first .country--brazil {
+  order: calc(5);
+}
+.countries--second {
+  width: 62%;
+}
+.countries--second .country--brazil {
+  order: calc(3);
+}
+.countries--second .country--uganda {
+  order: calc(5);
+}
+.countries--third {
+  width: 62%;
+  
+}
+.countries--third .country--brazil {
+  order: calc(5);
+}
+.countries--third .country--croatia {
+  order: calc(4);
+}
+.countries--third .country--laos {
+  order: calc(2);
+}
+.countries--third .country--uganda {
+  order: calc(1);
+}
+.countries--third .country--ethiopia {
+  order: calc(3);
+}
