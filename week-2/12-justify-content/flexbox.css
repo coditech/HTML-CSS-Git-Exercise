@@ -2,8 +2,43 @@
   display: flex;
 }
 
+
+
 .countries--second .country {
   padding: 0.5em;
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  width: 63%;
+  justify-content:flex-end;
+}
+
+.countries--second {
+  width: 63%;
+
+}
+.countries--second > li {
+  margin: auto;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.countries--third {
+  width: 63%;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+  justify-self:flex-end;
+  width: 63%;
+}
+
+.countries--fourth > li {
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+}
