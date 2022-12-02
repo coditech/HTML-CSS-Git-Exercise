@@ -1,5 +1,6 @@
 .countries {
   display: flex;
+
 }
 
 .countries--second .country {
@@ -7,3 +8,26 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  padding-left: 6%;
+  justify-content: end;
+  width: fit-content;
+
+}
+
+.countries--second {
+  justify-content: space-evenly;
+  width: 520px;
+
+}
+
+.countries--third {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+  justify-content: center;
+  justify-content: space-evenly;
+}
