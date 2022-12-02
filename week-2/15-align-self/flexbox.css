@@ -1,5 +1,42 @@
 .countries {
   display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 65%;
 }
 
 /* Add your own CSS code below */
+
+.country--ethiopia {
+  flex-direction: column-reverse;
+  align-self: flex-end;
+}
+
+.countries--second {
+  flex-direction: row;
+  align-items: center;
+}
+
+.countries--third {
+  align-items: flex-end;
+}
+
+.countries--third .country--brazil {
+  align-self: flex-start;
+}
+
+.countries--third .country--uganda {
+  align-self: baseline;
+}
+
+.countries--fourth {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.countries--fourth .country--ethiopia {
+  align-self: flex-start;
+}
+
+.countries--fourth .country--uganda {
+  align-self: center;
+}
