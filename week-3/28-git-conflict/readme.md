@@ -91,11 +91,6 @@ Since these commits change the same line of code, git doesn't know which one is 
 
 ```css
 /* Add your own CSS code below */
-.link {
-  color: fuchsia;
-  font-weight: 700;
-  text-decoration: none;
-}
 ```
 
 Test the changes in your browser. If the links have been changed to a purple colour, you've resolved the merge conflict. Now you need to add and commit the files to complete the merge. Run the following commands:
