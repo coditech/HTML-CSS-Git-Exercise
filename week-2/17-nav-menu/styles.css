@@ -1,1 +1,30 @@
 /* Write your media queries and flexbox CSS below */
+@media screen and (max-width: 480px) {
+  .site-header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .site-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .site-header__checkout {
+    display: flex;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .site-header__nav {
+    display: flex;
+    align-self: center;
+  }
+}
