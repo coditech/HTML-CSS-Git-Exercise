@@ -1,1 +1,49 @@
 /* Add your own CSS code below */
+.heart {
+  color: #c85308;
+}
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: larger;
+  }
+}
+.main-nav__list {
+  /* flex-direction: row; */
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .views {
+    align-items: center;
+    display: flex;
+  }
+  .view-list__item {
+    margin-left: 20px;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
+
+.site-search__input {
+  display: flex;
+  justify-content: center;
+}
+.main-article {
+  max-width: 50em;
+  line-height: 30px;
+}
+
+.site-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span.codi {
+  font-weight: normal;
+}
