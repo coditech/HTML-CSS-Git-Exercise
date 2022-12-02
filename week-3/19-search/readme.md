@@ -1,4 +1,4 @@
-# Search Form
+    # Search Form
 
 Forms are used everywhere on the web. One of the simplest forms you will find is a search form. In this exercise, you will create a form to search on Google. Follow the steps below to create your form.
 
