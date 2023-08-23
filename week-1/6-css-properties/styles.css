@@ -14,5 +14,5 @@ a {
   opacity: 0.5;
 }
 .message__content {
-  line-height: 3;
+  padding-bottom: 3cm;
 }
