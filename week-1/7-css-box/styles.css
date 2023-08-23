@@ -4,3 +4,12 @@
   border-radius: 4px;
   background: #fff;
 }
+
+.country {
+  padding: 13px;
+  margin: 5px;
+}
+
+.site-wrapper {
+  height: 420px;
+}
