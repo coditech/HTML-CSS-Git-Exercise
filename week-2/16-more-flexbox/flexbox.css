@@ -3,3 +3,38 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  justify-content: right;
+  align-items: flex-end;
+}
+.countries--second {
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+.countries--third {
+  justify-content: center;
+  align-items: flex-start;
+}
+.countries--third li:nth-child(1) {
+  align-self: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.countries--fourth li:nth-child(3),
+.countries--fourth li:nth-child(4) {
+  align-self: center;
+}
+.countries--fifth {
+  flex-direction: column-reverse;
+  align-items: end;
+  justify-content: start;
+}
+.countries--fifth li:nth-child(5) {
+  order: 3;
+
+  align-self: center;
+}
