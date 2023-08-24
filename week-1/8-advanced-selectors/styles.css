@@ -1,1 +1,7 @@
 /* Try different box model properties below */
+ul {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid rgb(212, 14, 14);
+  margin: 0;
+}
