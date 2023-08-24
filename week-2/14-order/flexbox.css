@@ -31,6 +31,7 @@
 }
 .countries--third .country--ethiopia {
   order: 3;
+  color: blueviolet;
 }
 .countries--third .country--croatia {
   order: 4;
