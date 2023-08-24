@@ -1,1 +1,16 @@
 /* Write your media queries and flexbox CSS below */
+@media (min-width: 481px) {
+  .site-header__nav {
+    display: flex;
+  }
+}
+@media (min-width: 701px) {
+  .site-header {
+    display: flex;
+  }
+}
+@media (min-width: 993px) {
+  .site-header {
+    justify-content: space-between;
+  }
+}
