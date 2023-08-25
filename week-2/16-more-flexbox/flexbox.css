@@ -12,6 +12,21 @@
   align-items: flex-end;
   justify-content: center;
 }
+.countries--second .country--brazil {
+  order: 5;
+}
+.countries--second .country--croatia {
+  order: 4;
+}
+.countries--second .country--ethiopia {
+  order: 3;
+}
+.countries--second .country--laos {
+  order: 2;
+}
+.countries--second .country--uganda {
+  order: 1;
+}
 
 .countries--third {
   align-items: flex-start;
