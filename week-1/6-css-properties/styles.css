@@ -1,1 +1,16 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message__time {
+  font-size: 0.9rem;
+  border-left-color: blue;
+}
+.message__time--old {
+  opacity: 0.2;
+}
+.message {
+  text-indent: 20px;
+}
